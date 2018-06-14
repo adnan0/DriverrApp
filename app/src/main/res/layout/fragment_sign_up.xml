@@ -1,0 +1,126 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.driverrapp.SignUpFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:text="Register Here !"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:layout_marginLeft="81dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/editText" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="217dp"
+            android:layout_height="38dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/editText2"
+            android:layout_marginBottom="17dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="217dp"
+            android:layout_height="38dp"
+            android:ems="10"
+            android:hint="Date of Birth"
+            android:inputType="date"
+            tools:layout_editor_absoluteX="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/editText3"
+            android:layout_marginBottom="17dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="217dp"
+            android:layout_height="38dp"
+            android:ems="10"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/editText4"
+            android:layout_marginBottom="18dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="217dp"
+            android:layout_height="38dp"
+            android:ems="10"
+            android:hint="N.I.C Number"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/editText5"
+            android:layout_marginBottom="17dp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="217dp"
+            android:layout_height="38dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/editText6"
+            android:layout_marginBottom="18dp" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="217dp"
+            android:layout_height="38dp"
+            android:ems="10"
+            android:hint="License Type"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/editText7"
+            android:layout_marginBottom="17dp" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="217dp"
+            android:layout_height="38dp"
+            android:ems="10"
+            android:hint="License Number"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/editText8" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="217dp"
+            android:layout_height="38dp"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="439dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            tools:layout_editor_absoluteX="280dp"
+            tools:layout_editor_absoluteY="447dp" />
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
